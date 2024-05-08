@@ -45,3 +45,5 @@ require("lazy").setup({
     },
   },
 })
+
+require("lspconfig").slangd.setup({})
