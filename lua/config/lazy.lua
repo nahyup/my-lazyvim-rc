@@ -46,4 +46,10 @@ require("lazy").setup({
   },
 })
 
-require("lspconfig").slangd.setup({})
+require("lspconfig").slangd.setup({
+  settings = {
+    slang = {
+      searchInAllWorkspaceDirectories = { true },
+    },
+  },
+})
